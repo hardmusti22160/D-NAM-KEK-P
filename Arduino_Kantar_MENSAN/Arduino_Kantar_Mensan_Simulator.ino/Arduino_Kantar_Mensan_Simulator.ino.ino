@@ -21,7 +21,7 @@ void setup() {
     }
   else{
     BTSerial.write("WN050.000kg\r\n");
-
+    
     }
 
    
@@ -48,4 +48,5 @@ void led_loop(){
   delay(20);
   
   }
+
 
